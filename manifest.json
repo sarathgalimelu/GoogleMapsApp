@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "CSC6370",
+  "description": "A currently clone",
+  "version": "0.1",
+  "permissions": [
+    "http://api.wunderground.com/api/"
+  ],
+  "background": {
+    "scripts": ["js/angular.min.js"]
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false https://maps.gstatic.com/maps-api-v3/api/js/19/2/main.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/common.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/map.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/util.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/marker.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/infowindow.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/stats.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/onion.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/controls.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/geometry.js https://maps.gstatic.com/maps-api-v3/api/js/19/2/poly.js; object-src 'self'",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
